@@ -1,7 +1,12 @@
 div {
 
 }
-span {
+.bigred{
 	font-size: 20px;
 	color: red;
+}
+
+.bigred span{
+	font-size: 20px;
+	color: green;
 }
