@@ -36,14 +36,6 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
-.example-block {
-visibility:hidden ;
-font-size: 50px;
-margin: 20px;	
-}
-.example-string {
-font-size: 50px;	
-}
-.example-image {
-border: 10px dotted #000;	
+.block {
+	
 }
