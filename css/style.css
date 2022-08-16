@@ -37,15 +37,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 .example-block {
-	margin: 0px 0px 30px;
-	border: 1px solid black
+outline: 10px solid #000;
+font-size: 50px;
+margin: 20px;	
 }
 .example-string {
-	display: inline-block;;
-	padding: 20px;
-	width: 500px;
-	border: 1px solid black
+font-size: 50px;	
 }
 .example-image {
-	
+border: 10px dotted #000;	
 }
