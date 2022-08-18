@@ -38,11 +38,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 body {
 	padding: 30px;
-	background:url(/img/67.jpg)center no-repeat fixed;	
+
 }
 
 .block {
-	background:white;		
+	background: url(/img/123.jpg) center/cover no-repeat ;	
 	height: 300px;
 	border-radius: 15px;
 	box-shadow: 0px 0px 10px #000;
