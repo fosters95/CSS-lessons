@@ -48,6 +48,7 @@ color: #273d46;
 text-align: center;
 text-transform: uppercase;
 letter-spacing: 2pt;
+opacity: 60%;
 }
 
 .head2 {
@@ -65,7 +66,7 @@ img {
 }
 
 .underpicture {
-	margin: 0 40px;
+	margin: 0 67px 0 24px;
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 12pt;	
 	color: #273d46;
@@ -77,7 +78,15 @@ img {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
 	line-height: 18pt;
+	background: url(/img/check\ icon.png) 0 0 repeat-y;
+	margin: 0 40px;
+	padding: 0 40px;
 }
+.list-1, .list-3 {
+font-weight: 700;
+}
+
+
 
 .list-2 {
 	color: #80b7b3;
