@@ -37,16 +37,13 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 .conteiner {
-	padding:125px 0px 100px 0;
+	padding:125px 0px 137px 0;
 	max-width: 841px; 
-	max-height: 1490px;
+	margin: 0 auto;
 }
 
 body {
-	background: #e8e8e8;
-	background-image: url(/img/Ellipse\ 1\ copy.png);
-	background-repeat: no-repeat;
-	background-size: auto auto;
+	background: #e8e8e8 url(/img/Ellipse\ 1\ copy.png) 50% 130px no-repeat;
 	padding: 0 310px 0 289px;
 	
 }
@@ -73,11 +70,15 @@ opacity: 60%;
 
 .conteiner-img {
 	margin-top: 70px;
-	border: white solid 10px;
-	width: 821px;
-	height: 541px;
+	max-width: 821px;
+	max-height: 541px;
 }
 
+img {
+	max-width: 821px;
+	max-height: 541px;
+	border: white solid 10px;
+}
 
 .underpicture {
 	margin: 90px 65px 0 50px;
@@ -90,47 +91,64 @@ opacity: 60%;
 }
 
 .conteiner-list{
+
+	
+	margin: 50px 0 0 50px;
+	
+}
+
+.conteiner-list li {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
 	line-height: 18pt;
-	background: url(/img/check\ icon.png) 0 0 no-repeat;
-	margin: 50px 0 0 50px;
+	background: url(/img/check\ icon.png) left no-repeat;
 	padding-left: 30px;
 }
 
-
-.list1, .list3 {
-font-weight: 700;
+.conteiner-list li:nth-child(1) {
+	font-weight: 700;
 }
 
-
-.list2 {
+.conteiner-list li:nth-child(2) {
 	color: #80b7b3;
 	font-style: italic;
 }
 
-.list4 {
-color: #273d46;	
-text-decoration: line-through;
+.conteiner-list li:nth-child(3) {
+	font-weight: 700;
+}
+.conteiner-list li:nth-child(4) {
+	color: #273d46;	
+	text-decoration: line-through;	
+}
+
+.conteiner-list li:nth-child(4) span {
 opacity: 30%;
 }
 
+
 .conteiner-button {
+padding: 0 30px;
 margin-top: 40px;
 background-image: url(/img/Shape\ 2.png) no-repeat;
 background-color: #80b7b3; 
-
-border-radius: 15px 15px;
-
-}
-
-.container-target {
+border-radius:24px;
+display: inline-block;
+line-height: 44px;
+height: 44px;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 7pt;	
 text-transform: uppercase;
 letter-spacing: 2pt;
+height: 44px;
 }
 
+.conteiner-button span {
+	background:url(/img/Shape\ 2.png) right no-repeat;
+	color: white;
+	padding-right: 30px;
+	padding-left: ;
+} 
 
 
 
