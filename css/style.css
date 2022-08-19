@@ -36,16 +36,25 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
+.conteiner {
+	padding:125px 0px 100px 0;
+	max-width: 841px; 
+	max-height: 1490px;
+}
+
 body {
-	padding: 168px 310px 0 289px ;
 	background: #e8e8e8;
+	padding: 0 310px 0 289px;
+}
+
+.container-header {
+	color: #273d46;
+	text-align: center;
 }
 
 .head1 {
 font-family: Arial, Helvetica, sans-serif;
 font-size: 7pt;	
-color: #273d46;
-text-align: center;
 text-transform: uppercase;
 letter-spacing: 2pt;
 opacity: 60%;
@@ -54,16 +63,15 @@ opacity: 60%;
 .head2 {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 18pt;	
-	color: #273d46;
-	text-align: center;
 	line-height: 25pt;
 }
 
-img {
+.conteiner-img {
+	border: white solid 10px;
 	width: 821px;
 	height: 541px;
-	border: white solid 10px;
 }
+
 
 .underpicture {
 	margin: 0 67px 0 24px;
@@ -74,7 +82,7 @@ img {
 	line-height: 20pt;
 }
 
-.list {
+.conteiner-list{
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
 	line-height: 18pt;
@@ -82,18 +90,16 @@ img {
 	margin: 0 40px;
 	padding: 0 40px;
 }
-.list-1, .list-3 {
+.list1, .list3 {
 font-weight: 700;
 }
 
-
-
-.list-2 {
+.list2 {
 	color: #80b7b3;
 	font-style: italic;
 }
 
-.list-4 {
+.list4 {
 color: #273d46;	
 text-decoration: line-through;
 opacity: 30%;
