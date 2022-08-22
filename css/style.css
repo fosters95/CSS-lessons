@@ -56,6 +56,18 @@ body {
 	background: rgb(209, 209, 218);
 }
 
+.block p:nth-child(odd){
+	background: yellow;
+}
+
+.block p:nth-child(3):hover{
+	background:blue;
+}
+
+.block p:nth-child(even){
+	background: purple;
+}
+
 .link {
 	color: red;
 }
@@ -96,6 +108,17 @@ body {
 	text-transform: uppercase;
 	margin-bottom: 30px;
 }
+
+.text-button:hover{
+	background: #333;
+	color: yellow;
+}
+
+.text-button:active{
+	background-color: #eee;
+
+}
+
 .list {
 }
 
