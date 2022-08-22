@@ -48,6 +48,10 @@ body {
 	margin: 0 0 20px 0;
 }
 
+.block p:last-child {
+	text-transform: uppercase;
+}
+
 .block:hover{
 	background: rgb(209, 209, 218);
 }
@@ -99,7 +103,20 @@ body {
 font-size: 18px;
 margin-bottom: 15px;
 }
+/*
+.list li:first-child{
+	color: green;
+	}
 
+	.list li:last-child{
+		color: yellow;
+		font-weight: 700;
+		}
 
-
-
+		.list li:nth-child(odd){
+			text-transform: uppercase;
+			}
+			*/
+			.list li:nth-child(even){
+				text-transform: uppercase;
+			}
