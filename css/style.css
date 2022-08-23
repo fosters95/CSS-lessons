@@ -44,7 +44,22 @@ body {
 	line-height: 33px;
 	margin: 0 0 30px 0;
 }
+
+.text::first-line{
+	color: green;
+}
+
+.text::first-letter{
+	color:red;
+	font-size: 50px;
+}
+
 .list {
+
+}
+
+
+.list li{
 	font-size: 24px;
 	margin: 0 0 20px 0;
 }
