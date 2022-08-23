@@ -63,3 +63,20 @@ body {
 	font-size: 24px;
 	margin: 0 0 20px 0;
 }
+/*
+.list li::before{
+	content: "«";
+}
+
+.list li::after{
+	content:"»";
+}*/
+.list li::before{
+	content:"";
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background-color: red;
+	display: inline-block;
+	margin-right: 10px;
+}
