@@ -80,3 +80,9 @@ body {
 	display: inline-block;
 	margin-right: 10px;
 }
+
+.list li:hover::before{
+
+	background-color:yellow;
+	
+}
